@@ -1,0 +1,20 @@
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
+print(bcolors.WARNING + "RANDI "+ bcolors.OKGREEN + "ATUL "+ bcolors.OKBLUE + "AUFA " + bcolors.ENDC)
+
+Nama_saya='RANDI '
+Backwards= Nama_saya[::-1]
+Nama_aku='ATUL '
+Balik=Nama_aku[::-1]
+My_name='AUFA '
+Flip=My_name[::-1]
+
+print( bcolors.OKBLUE+ Flip+ bcolors.OKGREEN+ Balik + bcolors.WARNING+ Backwards+ bcolors.ENDC)
